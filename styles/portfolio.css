@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #f8b6ac;
+  --branding-color: #aa5d70;
   --secondary-color: #464646;
   --heading-font-family: "Ephesis", cursive;
   --default-font-family: "Poppins", sans-serif;
@@ -16,13 +16,13 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
-  color: #f8b6ac;
+  color: #aa5d70;
   font-weight: bold;
 }
 
 h1 {
   font-size: 96px;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 h2 {
@@ -32,10 +32,11 @@ h2 {
 p {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
-  color: #f8b6ac;
+  line-height: 20px;
+  color: #aa5d70;
   font-weight: bold;
 }
+
 .hero {
   text-align: center;
   padding: 160px 20px;
@@ -45,7 +46,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #f8b6ac;
+  color: #aa5d70;
 }
 
 .hero h2 {
