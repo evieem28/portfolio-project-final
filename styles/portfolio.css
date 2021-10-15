@@ -107,6 +107,41 @@ p {
   padding: 20px;
 }
 
+.logo {
+  max-width: 65px;
+  max-height: 50px;
+  margin-top: 10px;
+}
+
+nav {
+  padding: 5px;
+}
+
+nav ul {
+  color: #aa5d70;
+  padding: 10px;
+  margin-right: -18px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #aa5d70;
+  transition: all 100ms ease-in-out;
+  font-size: 13px;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
