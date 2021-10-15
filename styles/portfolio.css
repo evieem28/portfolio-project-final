@@ -56,6 +56,9 @@ p {
   line-height: 1.5;
 }
 
+.about-section container {
+  background-color: black;
+}
 .about-section {
   padding: 70px 20px;
 }
