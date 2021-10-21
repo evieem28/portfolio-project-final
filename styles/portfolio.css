@@ -89,6 +89,11 @@ p {
   margin: 30px;
 }
 
+.content a {
+  text-decoration: none;
+  font-weight: lighter;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
